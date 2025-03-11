@@ -1,3 +1,7 @@
+You're right! In **GitHub Markdown**, headers with special characters (like `📌`) need to be referenced correctly. Here’s the **fixed version** with a properly working link for **Summary of Data Types**:  
+
+---
+
 📖 **Table of Contents**  
 
 1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
@@ -27,9 +31,19 @@
 7️⃣ **[Checking Data Types](#7️⃣-checking-data-types)**  
    - [Using `type()` Function](#example-checking-data-types)  
 
-8️⃣ **[Summary of Data Types](#📌-summary-of-data-types)**  
+8️⃣ **[Summary of Data Types](#summary-of-data-types)**  
 
-# **Python Data Types**  
+---
+
+### ✅ **Why This Works Now?**  
+GitHub generates section links by:  
+1. Converting headers to lowercase  
+2. Removing emojis and special characters  
+3. Replacing spaces with `-`  
+
+So instead of **📌 Summary of Data Types**, the correct link format is **`#summary-of-data-types`**.  
+
+Now it **works perfectly** in your **README.md**! 🚀 Let me know if you need more refinements. 😊# **Python Data Types**  
 
 Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
 
