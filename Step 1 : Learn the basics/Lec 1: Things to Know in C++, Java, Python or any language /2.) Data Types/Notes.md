@@ -1,7 +1,3 @@
-Here’s the **Table of Contents** with clickable links for easy navigation within the **README.md** file:  
-
----
-
 📖 **Table of Contents**  
 
 1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
@@ -33,9 +29,7 @@ Here’s the **Table of Contents** with clickable links for easy navigation with
 
 8️⃣ **[Summary of Data Types](#📌-summary-of-data-types)**  
 
----
-
-This **Table of Contents** allows users to click and jump directly to specific sections in the **README.md** file. 🚀 Let me know if you need any refinements! 😊# **Python Data Types**  
+# **Python Data Types**  
 
 Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
 
