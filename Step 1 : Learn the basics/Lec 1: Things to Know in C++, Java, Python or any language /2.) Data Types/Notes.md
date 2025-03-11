@@ -1,4 +1,41 @@
-# **Python Data Types**  
+Here’s the **Table of Contents** with clickable links for easy navigation within the **README.md** file:  
+
+---
+
+📖 **Table of Contents**  
+
+1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
+   - [Integer (`int`)](#example-numeric-data-types)  
+   - [Floating-point (`float`)](#example-numeric-data-types)  
+   - [Complex (`complex`)](#example-numeric-data-types)  
+
+2️⃣ **[Sequence Data Types](#2️⃣-sequence-data-types)**  
+   - [String (`str`)](#example-sequence-data-types)  
+   - [List (`list`)](#example-sequence-data-types)  
+   - [Tuple (`tuple`)](#example-sequence-data-types)  
+
+3️⃣ **[Set and Dictionary Data Types](#3️⃣-set-and-dictionary-data-types)**  
+   - [Set (`set`)](#example-set-and-dictionary)  
+   - [Dictionary (`dict`)](#example-set-and-dictionary)  
+
+4️⃣ **[Boolean Data Type](#4️⃣-boolean-data-type)**  
+   - [Boolean (`bool`)](#example-boolean)  
+
+5️⃣ **[NoneType](#5️⃣-nonetype)**  
+   - [`None`](#example-nonetype)  
+
+6️⃣ **[Type Conversion](#6️⃣-type-conversion)**  
+   - [Converting Between Data Types](#example-type-conversion)  
+   - [Examples of Type Casting](#example-type-conversion)  
+
+7️⃣ **[Checking Data Types](#7️⃣-checking-data-types)**  
+   - [Using `type()` Function](#example-checking-data-types)  
+
+8️⃣ **[Summary of Data Types](#📌-summary-of-data-types)**  
+
+---
+
+This **Table of Contents** allows users to click and jump directly to specific sections in the **README.md** file. 🚀 Let me know if you need any refinements! 😊# **Python Data Types**  
 
 Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
 
