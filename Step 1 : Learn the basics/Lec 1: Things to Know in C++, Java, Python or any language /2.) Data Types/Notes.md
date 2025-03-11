@@ -1,33 +1,33 @@
 ## 📖 **Table of Contents**  
 
-1️⃣ **[Numeric Data Types](#1-numeric-data-types)**  
+1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
    - [Integer (`int`)](#example-numeric-data-types)  
    - [Floating-point (`float`)](#example-numeric-data-types)  
    - [Complex (`complex`)](#example-numeric-data-types)  
 
-2️⃣ **[Sequence Data Types](#2-sequence-data-types)**  
+2️⃣ **[Sequence Data Types](#2️⃣-sequence-data-types)**  
    - [String (`str`)](#example-sequence-data-types)  
    - [List (`list`)](#example-sequence-data-types)  
    - [Tuple (`tuple`)](#example-sequence-data-types)  
 
-3️⃣ **[Set and Dictionary Data Types](#3-set-and-dictionary-data-types)**  
+3️⃣ **[Set and Dictionary Data Types](#3️⃣-set-and-dictionary-data-types)**  
    - [Set (`set`)](#example-set-and-dictionary)  
    - [Dictionary (`dict`)](#example-set-and-dictionary)  
 
-4️⃣ **[Boolean Data Type](#4-boolean-data-type)**  
+4️⃣ **[Boolean Data Type](#4️⃣-boolean-data-type)**  
    - [Boolean (`bool`)](#example-boolean)  
 
-5️⃣ **[NoneType](#5-nonetype)**  
+5️⃣ **[NoneType](#5️⃣-nonetype)**  
    - [`None`](#example-nonetype)  
 
-6️⃣ **[Type Conversion](#6-type-conversion)**  
+6️⃣ **[Type Conversion](#6️⃣-type-conversion)**  
    - [Converting Between Data Types](#example-type-conversion)  
    - [Examples of Type Casting](#example-type-conversion)  
 
-7️⃣ **[Checking Data Types](#7-checking-data-types)**  
+7️⃣ **[Checking Data Types](#7️⃣-checking-data-types)**  
    - [Using `type()` Function](#example-checking-data-types)  
 
-8️⃣ **[Summary of Data Types](#8-summary-of-data-types)**  
+8️⃣ **[Summary of Data Types](#📌-summary-of-data-types)**  
 
 ## **1️⃣ Numeric Data Types**  
 
