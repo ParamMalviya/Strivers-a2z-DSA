@@ -4,14 +4,17 @@
 1️⃣ [Python Input](#1️⃣-python-input)  
    - [Taking a Single Input](#taking-a-single-input)  
    - [Converting Input Type](#converting-input-type)  
-   - [Taking List Elements as Input](#taking-list-elements-as-input)  
+   - [Taking List Elements as Input](#taking-list-elements-as-input)
+       
 2️⃣ [Python Output](#2️⃣-python-output)  
    - [Print with Default Separator and End](#print-with-default-separator-and-end)  
-   - [Print with Custom Separator and End](#print-with-custom-separator-and-end)  
+   - [Print with Custom Separator and End](#print-with-custom-separator-and-end)
+     
 3️⃣ [Python Import](#3️⃣-python-import)  
    - [Importing a Module](#importing-a-module)  
    - [Importing Specific Functions](#importing-specific-functions)  
-   - [Importing with an Alias](#importing-with-an-alias)  
+   - [Importing with an Alias](#importing-with-an-alias)
+     
 4️⃣ [Definitions](#4️⃣-definitions)  
 
 ---
