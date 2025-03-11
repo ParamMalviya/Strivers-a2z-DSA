@@ -1,7 +1,3 @@
-Here’s a **GitHub README.md** version of the Python Data Types explanation:  
-
----
-
 # **Python Data Types**  
 
 Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
@@ -166,12 +162,3 @@ print("Type of z:", type(z))
 | `dict`    | `{"key": "value"}` | Key-value pairs |
 | `bool`    | `True, False` | Boolean (true/false) |
 | `NoneType`| `None` | Represents "nothing" |
-
----
-
-### **📌 Contributing**
-Feel free to contribute by adding more examples or explanations! 😊  
-
----
-
-This **README.md** is now ready to be used in your **GitHub repository**. Let me know if you need any modifications! 🚀
