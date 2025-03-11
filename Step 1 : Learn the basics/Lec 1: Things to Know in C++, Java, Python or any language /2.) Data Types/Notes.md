@@ -1,49 +1,55 @@
-You're right! In **GitHub Markdown**, headers with special characters (like `📌`) need to be referenced correctly. Here’s the **fixed version** with a properly working link for **Summary of Data Types**:  
+You're right again! The issue occurs because GitHub **automatically generates section IDs** by:  
+1. Converting text to **lowercase**  
+2. Removing **emojis and special characters**  
+3. Replacing **spaces with hyphens (`-`)**  
 
----
+## **🔍 Fixing the Issue**
+Since GitHub removes the `8️⃣` emoji and processes only the text, the correct link should be:  
+
+**`#8-summary-of-data-types`**  
+
+### **✅ Corrected Table of Contents**  
 
 📖 **Table of Contents**  
 
-1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
+1️⃣ **[Numeric Data Types](#1-numeric-data-types)**  
    - [Integer (`int`)](#example-numeric-data-types)  
    - [Floating-point (`float`)](#example-numeric-data-types)  
    - [Complex (`complex`)](#example-numeric-data-types)  
 
-2️⃣ **[Sequence Data Types](#2️⃣-sequence-data-types)**  
+2️⃣ **[Sequence Data Types](#2-sequence-data-types)**  
    - [String (`str`)](#example-sequence-data-types)  
    - [List (`list`)](#example-sequence-data-types)  
    - [Tuple (`tuple`)](#example-sequence-data-types)  
 
-3️⃣ **[Set and Dictionary Data Types](#3️⃣-set-and-dictionary-data-types)**  
+3️⃣ **[Set and Dictionary Data Types](#3-set-and-dictionary-data-types)**  
    - [Set (`set`)](#example-set-and-dictionary)  
    - [Dictionary (`dict`)](#example-set-and-dictionary)  
 
-4️⃣ **[Boolean Data Type](#4️⃣-boolean-data-type)**  
+4️⃣ **[Boolean Data Type](#4-boolean-data-type)**  
    - [Boolean (`bool`)](#example-boolean)  
 
-5️⃣ **[NoneType](#5️⃣-nonetype)**  
+5️⃣ **[NoneType](#5-nonetype)**  
    - [`None`](#example-nonetype)  
 
-6️⃣ **[Type Conversion](#6️⃣-type-conversion)**  
+6️⃣ **[Type Conversion](#6-type-conversion)**  
    - [Converting Between Data Types](#example-type-conversion)  
    - [Examples of Type Casting](#example-type-conversion)  
 
-7️⃣ **[Checking Data Types](#7️⃣-checking-data-types)**  
+7️⃣ **[Checking Data Types](#7-checking-data-types)**  
    - [Using `type()` Function](#example-checking-data-types)  
 
-8️⃣ **[Summary of Data Types](#summary-of-data-types)**  
+8️⃣ **[Summary of Data Types](#8-summary-of-data-types)**  
 
 ---
 
-### ✅ **Why This Works Now?**  
-GitHub generates section links by:  
-1. Converting headers to lowercase  
-2. Removing emojis and special characters  
-3. Replacing spaces with `-`  
+### **🚀 Why This Fix Works?**  
+- `8️⃣` is ignored  
+- The actual **header ID** becomes `8-summary-of-data-types`  
+- Now the link works perfectly in **GitHub README.md**  
 
-So instead of **📌 Summary of Data Types**, the correct link format is **`#summary-of-data-types`**.  
-
-Now it **works perfectly** in your **README.md**! 🚀 Let me know if you need more refinements. 😊# **Python Data Types**  
+Let me know if you need any more refinements! 😊
+**Python Data Types**  
 
 Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
 
