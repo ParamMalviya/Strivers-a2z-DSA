@@ -1,5 +1,3 @@
-### **✅ Corrected Table of Contents**  
-
 📖 **Table of Contents**  
 
 1️⃣ **[Numeric Data Types](#1-numeric-data-types)**  
