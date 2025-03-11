@@ -1,13 +1,3 @@
-You're right again! The issue occurs because GitHub **automatically generates section IDs** by:  
-1. Converting text to **lowercase**  
-2. Removing **emojis and special characters**  
-3. Replacing **spaces with hyphens (`-`)**  
-
-## **🔍 Fixing the Issue**
-Since GitHub removes the `8️⃣` emoji and processes only the text, the correct link should be:  
-
-**`#8-summary-of-data-types`**  
-
 ### **✅ Corrected Table of Contents**  
 
 📖 **Table of Contents**  
@@ -40,18 +30,6 @@ Since GitHub removes the `8️⃣` emoji and processes only the text, the correc
    - [Using `type()` Function](#example-checking-data-types)  
 
 8️⃣ **[Summary of Data Types](#8-summary-of-data-types)**  
-
----
-
-### **🚀 Why This Fix Works?**  
-- `8️⃣` is ignored  
-- The actual **header ID** becomes `8-summary-of-data-types`  
-- Now the link works perfectly in **GitHub README.md**  
-
-Let me know if you need any more refinements! 😊
-**Python Data Types**  
-
-Python provides various built-in **data types** to define the type of data stored in a variable. Python is **dynamically typed**, meaning the type is assigned automatically based on the value.  
 
 ## **1️⃣ Numeric Data Types**  
 
