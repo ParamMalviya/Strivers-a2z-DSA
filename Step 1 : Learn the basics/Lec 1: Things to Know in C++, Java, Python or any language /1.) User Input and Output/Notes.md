@@ -1,22 +1,22 @@
-### **📌 Python Input, Output, and Import**  
+# **📌 Python Input, Output, and Import**  
 
-#### **📖 Table of Contents**
-- [Python Input](#python-input)  
-  - [Taking a Single Input](#taking-a-single-input)  
-  - [Converting Input Type](#converting-input-type)  
-  - [Taking List Elements as Input](#taking-list-elements-as-input)  
-- [Python Output](#python-output)  
-  - [Print with Default Separator and End](#print-with-default-separator-and-end)  
-  - [Print with Custom Separator and End](#print-with-custom-separator-and-end)  
-- [Python Import](#python-import)  
-  - [Importing a Module](#importing-a-module)  
-  - [Importing Specific Functions](#importing-specific-functions)  
-  - [Importing with an Alias](#importing-with-an-alias)  
-- [Definitions](#definitions)  
+## **📖 Table of Contents**
+1️⃣ [Python Input](#1️⃣-python-input)  
+   - [Taking a Single Input](#taking-a-single-input)  
+   - [Converting Input Type](#converting-input-type)  
+   - [Taking List Elements as Input](#taking-list-elements-as-input)  
+2️⃣ [Python Output](#2️⃣-python-output)  
+   - [Print with Default Separator and End](#print-with-default-separator-and-end)  
+   - [Print with Custom Separator and End](#print-with-custom-separator-and-end)  
+3️⃣ [Python Import](#3️⃣-python-import)  
+   - [Importing a Module](#importing-a-module)  
+   - [Importing Specific Functions](#importing-specific-functions)  
+   - [Importing with an Alias](#importing-with-an-alias)  
+4️⃣ [Definitions](#4️⃣-definitions)  
 
 ---
 
-## **Python Input**  
+## **1️⃣ Python Input**  
 
 Python's built-in function `input()` is used to take input from the user.  
 
@@ -60,7 +60,7 @@ print("The list is:", my_list)
 
 ---
 
-## **Python Output**  
+## **2️⃣ Python Output**  
 
 Python's built-in function `print()` is used to display output on the screen.  
 
@@ -89,7 +89,7 @@ Hello & World | Python is awesome!
 
 ---
 
-## **Python Import**  
+## **3️⃣ Python Import**  
 
 The `import` statement is used to bring modules into the Python environment.  
 
@@ -122,7 +122,7 @@ print("Cosine of 0:", m.cos(0))
 
 ---
 
-## **Definitions**  
+## **4️⃣ Definitions**  
 
 📌 **Function**: A block of reusable code that performs a specific task.  
 
