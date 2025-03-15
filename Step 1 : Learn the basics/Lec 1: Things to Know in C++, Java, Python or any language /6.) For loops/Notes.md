@@ -1,5 +1,33 @@
 # Understanding `for` Loops and `print()` in Python
 
+# **Table of Contents**  
+
+1️⃣ **[What is a `for` Loop?](#1-what-is-a-for-loop)**  
+   - Basic Syntax  
+   - Example  
+
+2️⃣ **[The `range()` Function](#2-range-function)**  
+   - Default Start (0)  
+   - Custom Start and Stop  
+   - Using Step (Increment/Decrement)  
+
+3️⃣ **[Nested `for` Loops](#3-nested-for-loops)**  
+   - Printing a Square Pattern  
+
+4️⃣ **[The `print()` Function and `end` Parameter](#4-print-function-and-end-parameter)**  
+   - Default Behavior  
+   - Customizing `end`  
+   - Printing Without New Lines  
+
+5️⃣ **[Using Conditionals in Loops](#5-conditional-statements-inside-for-loops)**  
+   - Even & Odd Example  
+
+6️⃣ **[Customizing Loop Increments](#6-customizing-loop-increments)**  
+   - Example: Printing Every 5th Number  
+
+7️⃣ **[Conclusion](#7-conclusion)**  
+   - Key Takeaways  
+
 ## **1. What is a `for` Loop?**
 A `for` loop in Python is used to iterate over a sequence (like a list, tuple, string, or range) and execute a block of code multiple times.
 
