@@ -7,8 +7,7 @@
 3️⃣ **[Python Implementation](#python-implementation)**  
 4️⃣ **[Output](#output)**  
 5️⃣ **[Explanation](#explanation)**  
-6️⃣ **[Customization](#customization)**  
-   - [Rectangle with Different Rows & Columns](#example-rectangle-with-different-rows-columns)  
+6️⃣ **[Customization](#customization)**   
 7️⃣ **[Conclusion](#conclusion)**  
 
 ## **Introduction**
