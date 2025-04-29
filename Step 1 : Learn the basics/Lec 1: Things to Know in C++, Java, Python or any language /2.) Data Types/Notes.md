@@ -1,35 +1,49 @@
-## 📖 **Table of Contents**  
+# 📖 **Python Data Types Notes** (DSA Friendly)
 
-1️⃣ **[Numeric Data Types](#1️⃣-numeric-data-types)**  
+## 📖 **Table of Contents**
+
+1️⃣ **[Primitive and Non-Primitive Data Types](#primitive-and-non-primitive-data-types)**  
+2️⃣ **[Numeric Data Types](#numeric-data-types)**  
    - [Integer (`int`)](#example-numeric-data-types)  
    - [Floating-point (`float`)](#example-numeric-data-types)  
    - [Complex (`complex`)](#example-numeric-data-types)  
-
-2️⃣ **[Sequence Data Types](#2️⃣-sequence-data-types)**  
+3️⃣ **[Sequence Data Types](#sequence-data-types)**  
    - [String (`str`)](#example-sequence-data-types)  
    - [List (`list`)](#example-sequence-data-types)  
    - [Tuple (`tuple`)](#example-sequence-data-types)  
-
-3️⃣ **[Set and Dictionary Data Types](#3️⃣-set-and-dictionary-data-types)**  
+4️⃣ **[Set and Dictionary Data Types](#set-and-dictionary-data-types)**  
    - [Set (`set`)](#example-set-and-dictionary)  
    - [Dictionary (`dict`)](#example-set-and-dictionary)  
-
-4️⃣ **[Boolean Data Type](#4️⃣-boolean-data-type)**  
+5️⃣ **[Boolean Data Type](#boolean-data-type)**  
    - [Boolean (`bool`)](#example-boolean)  
-
-5️⃣ **[NoneType](#5️⃣-nonetype)**  
+6️⃣ **[NoneType](#nonetype)**  
    - [`None`](#example-nonetype)  
-
-6️⃣ **[Type Conversion](#6️⃣-type-conversion)**  
+7️⃣ **[Type Conversion](#type-conversion)**  
    - [Converting Between Data Types](#example-type-conversion)  
    - [Examples of Type Casting](#example-type-conversion)  
-
-7️⃣ **[Checking Data Types](#7️⃣-checking-data-types)**  
+8️⃣ **[Checking Data Types](#checking-data-types)**  
    - [Using `type()` Function](#example-checking-data-types)  
+9️⃣ **[Summary of Data Types](#summary-of-data-types)**  
 
-8️⃣ **[Summary of Data Types](#📌-summary-of-data-types)**  
+---
 
-## **1️⃣ Numeric Data Types**  
+## 🧠 Primitive and Non-Primitive Data Types
+
+| Category         | Data Types                          | Description                             |
+|------------------|--------------------------------------|-----------------------------------------|
+| Primitive        | `int`, `float`, `bool`, `str`, `complex` | Basic, single values (smallest units)    |
+| Non-Primitive    | `list`, `tuple`, `set`, `dict`         | Collections or groupings of values       |
+
+✅ **Primitive types**: Directly store a single piece of information.  
+✅ **Non-Primitive types**: Store multiple pieces of information together.
+
+**Example**:  
+- `5` → int (primitive)  
+- `[5, 10, 15]` → list (non-primitive)
+
+---
+
+## 1️⃣ Numeric Data Types
 
 | Data Type  | Description |
 |------------|-------------|
@@ -37,7 +51,7 @@
 | `float`    | Decimal numbers |
 | `complex`  | Numbers with real and imaginary parts |
 
-### **Example: Numeric Data Types**  
+### Example: Numeric Data Types
 ```python
 # Integer
 a = 10
@@ -54,7 +68,7 @@ print("Complex:", c, "| Type:", type(c))
 
 ---
 
-## **2️⃣ Sequence Data Types**  
+## 2️⃣ Sequence Data Types
 
 | Data Type  | Description |
 |------------|-------------|
@@ -62,7 +76,7 @@ print("Complex:", c, "| Type:", type(c))
 | `list`     | Ordered, mutable collection |
 | `tuple`    | Ordered, immutable collection |
 
-### **Example: Sequence Data Types**  
+### Example: Sequence Data Types
 ```python
 # String
 text = "Python"
@@ -79,14 +93,14 @@ print("Tuple:", my_tuple, "| Type:", type(my_tuple))
 
 ---
 
-## **3️⃣ Set and Dictionary Data Types**  
+## 3️⃣ Set and Dictionary Data Types
 
 | Data Type  | Description |
 |------------|-------------|
 | `set`      | Unordered collection of unique values |
 | `dict`     | Key-value pairs |
 
-### **Example: Set and Dictionary**  
+### Example: Set and Dictionary
 ```python
 # Set
 my_set = {1, 2, 3, 3, 4}
@@ -99,13 +113,13 @@ print("Dictionary:", my_dict, "| Type:", type(my_dict))
 
 ---
 
-## **4️⃣ Boolean Data Type**  
+## 4️⃣ Boolean Data Type
 
 | Data Type  | Description |
 |------------|-------------|
 | `bool`     | Represents `True` or `False` |
 
-### **Example: Boolean**  
+### Example: Boolean
 ```python
 x = True
 y = False
@@ -116,13 +130,13 @@ print("Boolean y:", y, "| Type:", type(y))
 
 ---
 
-## **5️⃣ NoneType**  
+## 5️⃣ NoneType
 
 | Data Type  | Description |
 |------------|-------------|
 | `NoneType` | Represents the absence of a value (`None`) |
 
-### **Example: NoneType**  
+### Example: NoneType
 ```python
 x = None
 print("Value:", x, "| Type:", type(x))
@@ -130,10 +144,11 @@ print("Value:", x, "| Type:", type(x))
 
 ---
 
-## **6️⃣ Type Conversion**  
+## 6️⃣ Type Conversion
+
 Python allows conversion between different data types using **type casting**.
 
-### **Example: Type Conversion**  
+### Example: Type Conversion
 ```python
 # Converting int to float
 a = 10
@@ -158,11 +173,11 @@ print("Converted list to tuple:", my_tuple, "| Type:", type(my_tuple))
 
 ---
 
-## **7️⃣ Checking Data Types**  
+## 7️⃣ Checking Data Types
 
 Use the `type()` function to check the type of a variable.
 
-### **Example: Checking Data Types**  
+### Example: Checking Data Types
 ```python
 x = 42
 y = "Hello"
@@ -175,7 +190,7 @@ print("Type of z:", type(z))
 
 ---
 
-## **📌 Summary of Data Types**  
+## 📌 Summary of Data Types
 
 | **Type**  | **Example** | **Description** |
 |-----------|------------|----------------|
@@ -189,3 +204,19 @@ print("Type of z:", type(z))
 | `dict`    | `{"key": "value"}` | Key-value pairs |
 | `bool`    | `True, False` | Boolean (true/false) |
 | `NoneType`| `None` | Represents "nothing" |
+
+➡️ **Note**:  
+- `int`, `float`, `str`, `bool`, `complex` → **Primitive Data Types**  
+- `list`, `tuple`, `set`, `dict` → **Non-Primitive Data Types**
+
+---
+
+# 🎯 Real World Analogy:
+
+| Primitive vs Non-Primitive | Analogy | Meaning |
+|------------------------------|---------|---------|
+| Primitive | **Brick** | Smallest building unit (int, str, bool) |
+| Non-Primitive | **Building** | Collection made by grouping bricks (list, dict, set) |
+
+✅ **Primitive types** → handle **individual values**.  
+✅ **Non-primitive types** → manage **groups** of data.
