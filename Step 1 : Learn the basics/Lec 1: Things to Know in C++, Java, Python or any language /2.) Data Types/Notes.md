@@ -1,4 +1,4 @@
-# 📖 **Python Data Types Notes** (DSA Friendly)
+# 📖 **Python Data Types Notes** 
 
 ## 📖 **Table of Contents**
 
