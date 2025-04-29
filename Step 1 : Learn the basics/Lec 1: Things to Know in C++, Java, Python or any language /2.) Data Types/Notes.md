@@ -2,28 +2,36 @@
 
 ## 📖 **Table of Contents**
 
-1️⃣ **[Primitive and Non-Primitive Data Types](#primitive-and-non-primitive-data-types)**  
-2️⃣ **[Numeric Data Types](#numeric-data-types)**  
-   - [Integer (`int`)](#example-numeric-data-types)  
-   - [Floating-point (`float`)](#example-numeric-data-types)  
-   - [Complex (`complex`)](#example-numeric-data-types)  
-3️⃣ **[Sequence Data Types](#sequence-data-types)**  
-   - [String (`str`)](#example-sequence-data-types)  
-   - [List (`list`)](#example-sequence-data-types)  
-   - [Tuple (`tuple`)](#example-sequence-data-types)  
-4️⃣ **[Set and Dictionary Data Types](#set-and-dictionary-data-types)**  
-   - [Set (`set`)](#example-set-and-dictionary)  
-   - [Dictionary (`dict`)](#example-set-and-dictionary)  
-5️⃣ **[Boolean Data Type](#boolean-data-type)**  
-   - [Boolean (`bool`)](#example-boolean)  
-6️⃣ **[NoneType](#nonetype)**  
-   - [`None`](#example-nonetype)  
-7️⃣ **[Type Conversion](#type-conversion)**  
-   - [Converting Between Data Types](#example-type-conversion)  
-   - [Examples of Type Casting](#example-type-conversion)  
-8️⃣ **[Checking Data Types](#checking-data-types)**  
-   - [Using `type()` Function](#example-checking-data-types)  
-9️⃣ **[Summary of Data Types](#summary-of-data-types)**  
+1️⃣ Primitive and Non-Primitive Data Types
+
+2️⃣ Numeric Data Types
+    - Integer (int)
+    - Floating-point (float)
+    - Complex (complex)
+
+3️⃣ Sequence Data Types
+    - String (str)
+    - List (list)
+    - Tuple (tuple)
+
+4️⃣ Set and Dictionary Data Types
+    - Set (set)
+    - Dictionary (dict)
+
+5️⃣ Boolean Data Type
+    - Boolean (bool)
+
+6️⃣ NoneType
+    - None
+
+7️⃣ Type Conversion
+    - Converting Between Data Types
+    - Examples of Type Casting
+
+8️⃣ Checking Data Types
+    - Using type() Function
+
+9️⃣ Summary of Data Types
 
 ---
 
